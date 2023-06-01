@@ -7,6 +7,9 @@
 <title>POST METHOD 폼태그</title>
 </head>
 <body>
+	<div class="container">
+	
+	</div>
 	<form method="post" action="/lesson02/ex03_1.jsp">
 		1. 별명은 무엇입니까? <input type="text" name="nickname"><br><br>
 		2. 취미는 무엇입니까? <input type="text" name="hobby"><br><br>
