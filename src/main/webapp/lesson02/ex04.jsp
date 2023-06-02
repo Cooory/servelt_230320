@@ -25,11 +25,11 @@
 		Iterator<String> iter = scoreMap.keySet().iterator();
 		while (iter.hasNext()) {
 			String key = iter.next();
-		}
 	%>
 		<tr>
+		
 			<th>
-				<%
+				<% 
 					if (key.equals("korean")) {
 						out.print("국어");
 					} else if (key.equals("english")) {
@@ -43,7 +43,9 @@
 			</th>
 			<td><%= scoreMap.get(key) %></td>
 		</tr>
-		
+		<%
+		}
+		%>
 	</table>
 </body>
 </html>
