@@ -16,6 +16,7 @@
 	 		<b>이름</b>
 	 		<input type="text" name="name">
 	 	</p>
+	 	
 	 	<p>
 	 		<b>생년월일</b>
 	 		<input type="text" name="yyyymmdd">

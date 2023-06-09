@@ -138,14 +138,17 @@
 				for(Map<String, Object> item : musicList) {
 					
 				%>
-	
+				<tr>
+					<td><%=info.get("id") %></td>
+					<td><a href="info_template.jsp?id=<%=info.get("id") %>"><%=info.get("title") %></a></td>
+					<td><%=info.get("album") %></td>
+				</tr>
 	
 				<tr>
 					<td><%= item.get("id") %></td>
-					<td><a
-						href="/lesson03/quiz02/info_layout.jsp?id=<%= item.get("id") %>><%= item.get("title") %></a></td>
-						<td><%= item.get("album") %></td>
-					</tr>
+					<td><a href="/lesson03/quiz02/info_layout.jsp?id=<%= item.get("id") %>"><%= item.get("title") %></a></td>
+					<td><%= item.get("album") %></td>
+				</tr>
 				<%
 					}
 				%>
